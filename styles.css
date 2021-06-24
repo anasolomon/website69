@@ -1,0 +1,88 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-image: url("bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-color: hsl(257, 40%, 49%);
+  background-size: cover;
+  margin: 0;
+  text-align: left;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400px;
+}
+
+.logoimg {
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.imgdiv {
+  position: absolute;
+  top: 20%;
+  left: 100px;
+}
+
+.imgmockups {
+  float: left;
+  margin: 0 50px 0 0;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 7px 7px 10px #715e7a;
+  -moz-box-shadow: 7px 7px 10px #715e7a;
+  box-shadow: 7px 7px 10px #715e7a;
+  font-family: Arial;
+  color: hsl(257, 40%, 49%);
+  font-size: 19px;
+  background: #ffffff;
+  padding: 13px 38px 15px 38px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn:hover {
+  background: hsl(300, 69%, 71%);
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+p {
+  width: auto;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+.media {
+  position: relative;
+  display: inline-block;
+  border: solid;
+  border-width: thin;
+  border-radius: 50%;
+  padding: 1px;
+  width: 1rem;
+}
+
+.social-img {
+  position: relative;
+  right: 0px;
+  top: 680px;
+  left: 1240px;
+  height: 50px;
+  width: 150px;
+}
