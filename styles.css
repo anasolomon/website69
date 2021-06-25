@@ -68,21 +68,32 @@ h1 {
   font-size: 2.8rem;
 }
 
-.media {
-  position: relative;
-  display: inline-block;
-  border: solid;
-  border-width: thin;
-  border-radius: 50%;
-  padding: 1px;
-  width: 1rem;
+.social-imgs {
+  position: absolute;
+  right: 10px;
+  bottom: 60px;
+  height: 60px;
+  width: 250px;
 }
 
-.social-img {
-  position: relative;
-  right: 0px;
-  top: 680px;
-  left: 1240px;
-  height: 50px;
-  width: 150px;
+.cont-pic {
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 7px;
+  border-width: thin;
+  margin: auto 8px;
+}
+
+.media {
+  font-size: 1.5rem;
+  padding-top: 9px;
+}
+.cont-pic:hover{
+  color: hsl(300, 69%, 71%);
+  border-color:  hsl(300, 69%, 71%);
+  cursor: pointer;
 }
